@@ -1,7 +1,7 @@
 {
 	"name": "giblins-little-adventure",
 	"version": "1.0.0",
-	"description": "![CyberCode Online Logo](/resources/giblin.png)",
+	"description": "![giblin page icon](/resources/giblin.png)",
 	"main": "index.js",
 	"scripts": {
 		"watch": "nodemon --watch src src/ValidateJson.ts",
