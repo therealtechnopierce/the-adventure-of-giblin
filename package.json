@@ -1,0 +1,34 @@
+{
+	"name": "giblins-little-adventure",
+	"version": "1.0.0",
+	"description": "![CyberCode Online Logo](/resources/giblin.png)",
+	"main": "index.js",
+	"scripts": {
+		"watch": "nodemon --watch src src/ValidateJson.ts",
+		"start": "ts-node src/ValidateJson.ts",
+		"normalize-structure-mask": "ts-node src/Normalize.ts",
+		"print-line-numbers": "ts-node src/LineNumbers.ts",
+		"print-rooms": "ts-node src/RoomsPrinter.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/therealtechnopierce/the-adventure-of-giblin.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"dependencies": {
+		"nodemon": "^2.0.7",
+		"pathfinding": "^0.4.18",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.4"
+	},
+	"devDependencies": {
+		"@types/node": "^18.0.0",
+		"@types/pathfinding": "0.0.4"
+	}
+}
